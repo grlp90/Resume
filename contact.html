@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>My Contact Information</title>
+  </head>
+  <body>
+    <h1>Contact Information</h1>
+    <p>
+      <label for="email"> Email Adress:</label>
+      <a href="mailto:g-artman@hotmail.com" id="email">g-artman@hotmail.com</a>
+    </p>
+    <p>
+      <label for="mobile">Mobile:</label>
+      <a href="tel:+905372203922" id="mobile">+90 537 220 39 22</a>
+    </p>
+    <hr />
+    <form action="mailto:g-artman@hotmail.com">
+      <span>
+        <label for="name">Your Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Your Name"
+          required
+        />
+      </span><br>
+      <span>
+        <label for="mail">Your Email</label>
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          required
+          placeholder="Your E-Mail"
+        />
+      </span><br />
+      <div>
+        <label for="message">Your Message</label><br />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Write Your Message"
+          required
+        ></textarea>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
